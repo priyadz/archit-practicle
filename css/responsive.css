@@ -1,0 +1,86 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .mainLogo img {
+    width: 65%;
+  }
+  .mainHeader .row > * {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+  .menuBtn {
+    float: right;
+    padding: 0 35px 0 0;
+  }
+  .mainSlider {
+    padding-top: 0;
+  }
+  .mainSlider h2 {
+    font-size: 40px;
+    line-height: 48px;
+    padding: 50px;
+    letter-spacing: 2.4px;
+  }
+  .mainSlider .carousel-inner:before {
+    width: 100%;
+  }
+  .mainSlider .customNav {
+    left: 0;
+    margin: 0 auto;
+    bottom: -60%;
+  }
+  .mainNav .menuNav ul li a {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2.4px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .mainLogo img {
+    width: 50%;
+  }
+  .mainHeader .row > * {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+  .menuBtn {
+    float: right;
+    padding: 0 35px 0 0;
+  }
+  .mainSlider {
+    padding-top: 0;
+  }
+  .mainSlider h2 {
+    font-size: 50px;
+    line-height: 58px;
+    padding: 50px;
+    letter-spacing: 3.4px;
+  }
+  .mainSlider .carousel-inner:before {
+    width: 70%;
+  }
+  .mainSlider .customNav {
+    left: 0;
+    margin: 0 auto;
+    bottom: -60%;
+  }
+  .mainNav .menuNav ul li a {
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 3.4px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .mainSlider h2 {
+    font-size: 70px;
+    line-height: 78px;
+    padding: 70px;
+    letter-spacing: 4.4px;
+  }
+  .mainSlider .carousel-inner:before {
+    width: 70%;
+  }
+  .mainNav .menuNav ul li a {
+    font-size: 70px;
+    line-height: 95px;
+    letter-spacing: 4.4px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
